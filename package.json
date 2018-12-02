@@ -1,0 +1,15 @@
+{
+  "name": "flatten-array",
+  "version": "1.0.0",
+  "description": "Flatten an array of arbitrarily nested arrays of integers into a flat array of integers",
+  "main": "",
+  "scripts": {
+    "test": "mocha --harmony"
+  },
+  "author": "Marina Lohova",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  }
+}
