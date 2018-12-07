@@ -7,8 +7,8 @@
  * @throws {Error} Argument must not be null.
  * @throws {Error} Array value is non-integer.
  */
-function flatten(array,) {
-    if (array == null) {
+function flatten(array) {
+    if (array == null || !Array.isArray(array)) {
         throw new Error('Argument is null.');
     }
     
